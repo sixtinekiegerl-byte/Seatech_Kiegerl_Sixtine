@@ -28,7 +28,8 @@
 #define MOTEUR_DROITE_DUTY_CYCLE PDC2
 
 void InitPWM(void);
-void PWMSetSpeed(float vitesseEnPourcents, int numMot);  //
-
+//void PWMSetSpeed(float , int);  
+void PWMUpdateSpeed();
+void PWMSetSpeedConsigne(float, char);
 #endif	/* PWM_H */
 

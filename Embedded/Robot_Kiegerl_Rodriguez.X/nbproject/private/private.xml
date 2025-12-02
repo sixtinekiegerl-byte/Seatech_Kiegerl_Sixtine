@@ -4,18 +4,19 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/Robot.h</file>
-            <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/IO.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/IO.c</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/Robot.c</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/PWM.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/ChipConfig.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/ChipConfig.c</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/timer.c</file>
+            <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/ADC.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/timer.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/ToolBox.c</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/Toolbox.h</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/PWM.c</file>
             <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/main.c</file>
+            <file>file:/C:/Github/Seatech_Kiegerl_Sixtine/Embedded/Robot_Kiegerl_Rodriguez.X/ADC.c</file>
         </group>
     </open-files>
 </project-private>

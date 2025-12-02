@@ -14,6 +14,7 @@
 #include "Robot.h"
 #include "Toolbox.h"
 #include "PWM.h"
+#include "ADC.h"
 
 int main(void) {
     //
@@ -42,13 +43,46 @@ int main(void) {
     // 
     InitPWM();
     InitTimer23();
-    //PWMSetSpeed(-20, MOTEUR_DROIT);
-    _T3Interrupt();
+    InitTimer1();
+    InitADC1(); 
+    //PWMSetSpeedConsigne(-5, MOTEUR_DROIT);
    
-    
+
     while(1)
     {
+        //unsigned int ADCValue0; 
+       // unsigned int ADCValue1;
+        //unsigned int ADCValue2;
         
+        if (ADCIsConversionFinished() == 1)
+        {
+            ADCClearConversionFinishedFlag();
+            unsigned int * result = ADCGetResult();
+            float volts = ((float) result [0])* 3.3 / 4096;
+            robotState.distanceTelemetreGauche = 34 / volts - 5;
+            volts = ((float) result [1])* 3.3 / 4096;
+            robotState.distanceTelemetreCentre = 34 / volts - 5;
+            volts = ((float) result [2])* 3.3 / 4096;
+            robotState.distanceTelemetreDroit = 34 / volts - 5;
+        }
+        if (robotState.distanceTelemetreGauche < 30 ){
+            LED_BLEUE_1 = 0;
+        }else{
+            LED_BLEUE_1 = 1;
+        }
+        
+        if (robotState.distanceTelemetreCentre < 30){
+            LED_ORANGE_1 = 0;
+        }else{
+            LED_ORANGE_1 = 1;                
+        }
+        if (robotState.distanceTelemetreDroit < 30){
+            LED_ROUGE_1 = 0;
+        }else{
+            LED_ROUGE_1 = 1;                
+        }
+                
+            
     }
     // fin main
 }
