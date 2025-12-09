@@ -7,7 +7,6 @@
 
 #ifndef ROBOT_H
 #define ROBOT_H
-#define PWMPER
 typedef struct robotStateBITS {
 union {
 struct {
@@ -19,6 +18,10 @@ float vitesseDroiteCommandeCourante;
 float distanceTelemetreDroit; 
 float distanceTelemetreCentre; 
 float distanceTelemetreGauche ; 
+float distanceTelemetreExtremeGauche ;
+float distanceTelemetreExtremeDroit; 
+
+
 
 };
 };

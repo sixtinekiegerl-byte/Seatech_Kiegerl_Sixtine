@@ -11,7 +11,7 @@
 
 #include <xc.h>
 #include "IO.h"
-
+#include "main.h"
 void InitIO()
 {
     //****************************************************************************************************/
@@ -38,7 +38,8 @@ void InitIO()
     _TRISA10 = 0; // LED Rouge
     _TRISH3 = 0; // LED Verte 
     
-
+    _TRISJ10 = 0; //moteur
+    _TRISH0 = 0; // bouton
     
     //****** Moteurs ************************
 
