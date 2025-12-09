@@ -60,14 +60,10 @@ void PWMUpdateSpeed()
 {
 // Cette fonction est appelee sur timer et permet de suivre des rampes d acceleration
     if (robotState.vitesseGaucheCommandeCourante < robotState.vitesseGaucheConsigne)
-        robotState.vitesseGaucheCommandeCourante = Min(
-        robotState.vitesseGaucheCommandeCourante + acceleration,
-        robotState.vitesseGaucheConsigne);
+        robotState.vitesseGaucheCommandeCourante = Min(robotState.vitesseGaucheCommandeCourante + acceleration ,robotState.vitesseGaucheConsigne);
     
     if (robotState.vitesseGaucheCommandeCourante > robotState.vitesseGaucheConsigne)
-        robotState.vitesseGaucheCommandeCourante = Max(
-        robotState.vitesseGaucheCommandeCourante - acceleration,
-        robotState.vitesseGaucheConsigne);
+        robotState.vitesseGaucheCommandeCourante = Max(robotState.vitesseGaucheCommandeCourante - acceleration, robotState.vitesseGaucheConsigne);
     
     if (robotState.vitesseGaucheCommandeCourante > 0){
         PDC1 = robotState.vitesseGaucheCommandeCourante * PWMPER + talon;
@@ -99,7 +95,7 @@ void PWMUpdateSpeed()
 
 void PWMSetSpeedConsigne(float vitesseEnPourcents, char moteur){
     if (moteur == MOTEUR_GAUCHE){ 
-        robotState.vitesseGaucheConsigne = vitesseEnPourcents;
+        robotState.vitesseGaucheConsigne = - vitesseEnPourcents;
 
     }else if(moteur == MOTEUR_DROIT){
         robotState.vitesseDroiteConsigne = vitesseEnPourcents;    

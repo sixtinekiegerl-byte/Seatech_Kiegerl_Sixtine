@@ -99,7 +99,7 @@ int main(void) {
         } else {
             LED_VERTE_1 = 0;
         }
-        if (Inter1==1 ){
+        if (Inter1 == 1 ){
             LED_BLANCHE_2 = 0;
         }
             
