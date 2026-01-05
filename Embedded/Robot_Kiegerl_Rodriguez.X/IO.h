@@ -21,7 +21,7 @@
 #define LED_VERTE_2 _LATH3
 
 #define PWM_ENABLE _LATJ10 //pour activer les hacheurs qui font tourner les moteurs
-#define Inter1 _LATH0
+#define Inter1 _RH0  // switch button 
 
 // Prototypes fonctions
 void InitIO();

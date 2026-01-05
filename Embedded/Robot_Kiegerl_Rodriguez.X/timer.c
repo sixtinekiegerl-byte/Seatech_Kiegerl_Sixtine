@@ -71,7 +71,7 @@ void InitTimer23(void) {
     PR2 = 0x8700; // Load 32-bit period value (lsw)
     IPC2bits.T3IP = 0x01; // Set Timer3 Interrupt Priority Level
     IFS0bits.T3IF = 0; // Clear Timer3 Interrupt Flag
-    IEC0bits.T3IE = 1; // Enable Timer3 interrupt
+    IEC0bits.T3IE = 0; // Enable Timer3 interrupt (=1 avant avec T3Interrupt)
     T2CONbits.TON = 1; // Start 32-bit Timer
 }
 //Interruption du timer 32 bits sur 2-3
@@ -83,18 +83,18 @@ void InitTimer23(void) {
 unsigned char toggle = 0;
 //Interruption du timer 32 bits sur 2-3
 
-void __attribute__((interrupt, no_auto_psv)) _T3Interrupt(void) {
-    IFS0bits.T3IF = 0; // Clear Timer3 Interrupt Flag
-    if (toggle == 0) {
-        PWMSetSpeedConsigne(25, MOTEUR_DROIT);
-        PWMSetSpeedConsigne(25, MOTEUR_GAUCHE);
-        toggle = 1;
-    } else {
-        PWMSetSpeedConsigne(-25, MOTEUR_DROIT);
-        PWMSetSpeedConsigne(-25, MOTEUR_GAUCHE);
-        toggle = 0;
-    }
-}
+//void __attribute__((interrupt, no_auto_psv)) _T3Interrupt(void) {
+//    IFS0bits.T3IF = 0; // Clear Timer3 Interrupt Flag
+//    if (toggle == 0) {
+//        PWMSetSpeedConsigne(25, MOTEUR_DROIT);
+//        PWMSetSpeedConsigne(25, MOTEUR_GAUCHE);
+//        toggle = 1;
+//    } else {
+//        PWMSetSpeedConsigne(-25, MOTEUR_DROIT);
+//        PWMSetSpeedConsigne(-25, MOTEUR_GAUCHE);
+//        toggle = 0;
+//    }
+//}
 
 //Creation d'un timer 4
 
