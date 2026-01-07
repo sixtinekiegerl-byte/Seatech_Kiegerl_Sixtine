@@ -54,7 +54,7 @@ double talon = 50;
 //}
 
 
-float acceleration=1;
+float acceleration=100;
 
 void PWMUpdateSpeed()
 {
