@@ -212,8 +212,7 @@ void OperatingSystemLoop(void) {
                     // --- C'EST ICI QUE LE BASCULEMENT SE FAIT ---
                     if (stateRobot == STATE_ARRET) {
                         stateRobot = STATE_ATTENTE; // Démarrer
-                        startTime = timestamp; // <--- On lance le chrono de 1 minute ICI
-                        nextStateRobot = STATE_AVANCE; // Par défaut on veut avancer
+                        
                     } else {
                         stateRobot = STATE_ARRET;   // Arrêter
                         PWMSetSpeedConsigne(0, MOTEUR_DROIT);

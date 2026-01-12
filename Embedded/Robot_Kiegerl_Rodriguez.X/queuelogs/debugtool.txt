@@ -1,156 +1,1007 @@
-322 1768235536148 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
-322 1768235536149 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9015, AttachedToolVID = 4d8
-322 1768235536149 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
-322 1768235536149 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9015, AttachedToolVID = 4d8
-322 1768235537498 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
-322 1768235537498 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
-322 1768235537499 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
-322 1768235537527 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@72e8753e
-322 1768235537527 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
-322 1768235537527 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@72e8753e
-322 1768235537527 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+8375 1768235338415 XXXX 1768235338415, Thread 8375: XXXX 1768235338415, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338420 XXXX 1768235338420, Thread 8375: XXXX 1768235338420, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338420 XXXX 1768235338420, Thread 8375: XXXX 1768235338420, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338420 XXXX 1768235338420, Thread 8375: XXXX 1768235338420, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338423 XXXX 1768235338423, Thread 8375: XXXX 1768235338423, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338423 XXXX 1768235338423, Thread 8375: XXXX 1768235338423, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338423 XXXX 1768235338423, Thread 8375: XXXX 1768235338423, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338428 XXXX 1768235338428, Thread 8375: XXXX 1768235338428, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338428 XXXX 1768235338428, Thread 8375: XXXX 1768235338428, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338428 XXXX 1768235338428, Thread 8375: XXXX 1768235338428, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338430 XXXX 1768235338430, Thread 8375: XXXX 1768235338430, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338430 XXXX 1768235338430, Thread 8375: XXXX 1768235338430, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338430 XXXX 1768235338430, Thread 8375: XXXX 1768235338430, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338435 XXXX 1768235338435, Thread 8375: XXXX 1768235338435, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338435 XXXX 1768235338435, Thread 8375: XXXX 1768235338435, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338435 XXXX 1768235338435, Thread 8375: XXXX 1768235338435, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338438 XXXX 1768235338438, Thread 8375: XXXX 1768235338438, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338438 XXXX 1768235338438, Thread 8375: XXXX 1768235338438, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338438 XXXX 1768235338438, Thread 8375: XXXX 1768235338438, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338443 XXXX 1768235338443, Thread 8375: XXXX 1768235338443, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338443 XXXX 1768235338443, Thread 8375: XXXX 1768235338443, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338443 XXXX 1768235338443, Thread 8375: XXXX 1768235338443, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338446 XXXX 1768235338446, Thread 8375: XXXX 1768235338446, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338446 XXXX 1768235338446, Thread 8375: XXXX 1768235338446, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338446 XXXX 1768235338446, Thread 8375: XXXX 1768235338446, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338451 XXXX 1768235338451, Thread 8375: XXXX 1768235338451, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338451 XXXX 1768235338451, Thread 8375: XXXX 1768235338451, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338451 XXXX 1768235338451, Thread 8375: XXXX 1768235338451, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338453 XXXX 1768235338453, Thread 8375: XXXX 1768235338453, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338453 XXXX 1768235338453, Thread 8375: XXXX 1768235338453, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338453 XXXX 1768235338453, Thread 8375: XXXX 1768235338453, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338458 XXXX 1768235338458, Thread 8375: XXXX 1768235338458, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338458 XXXX 1768235338458, Thread 8375: XXXX 1768235338458, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338458 XXXX 1768235338458, Thread 8375: XXXX 1768235338458, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338461 XXXX 1768235338461, Thread 8375: XXXX 1768235338461, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338461 XXXX 1768235338461, Thread 8375: XXXX 1768235338461, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338461 XXXX 1768235338461, Thread 8375: XXXX 1768235338461, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338466 XXXX 1768235338466, Thread 8375: XXXX 1768235338466, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338466 XXXX 1768235338466, Thread 8375: XXXX 1768235338466, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338466 XXXX 1768235338466, Thread 8375: XXXX 1768235338466, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338469 XXXX 1768235338469, Thread 8375: XXXX 1768235338469, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338469 XXXX 1768235338469, Thread 8375: XXXX 1768235338469, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338469 XXXX 1768235338469, Thread 8375: XXXX 1768235338469, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338474 XXXX 1768235338474, Thread 8375: XXXX 1768235338474, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338474 XXXX 1768235338474, Thread 8375: XXXX 1768235338474, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338474 XXXX 1768235338474, Thread 8375: XXXX 1768235338474, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338476 XXXX 1768235338476, Thread 8375: XXXX 1768235338476, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338476 XXXX 1768235338476, Thread 8375: XXXX 1768235338476, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338476 XXXX 1768235338476, Thread 8375: XXXX 1768235338476, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338481 XXXX 1768235338481, Thread 8375: XXXX 1768235338481, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338481 XXXX 1768235338481, Thread 8375: XXXX 1768235338481, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338481 XXXX 1768235338481, Thread 8375: XXXX 1768235338481, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338484 XXXX 1768235338484, Thread 8375: XXXX 1768235338484, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338484 XXXX 1768235338484, Thread 8375: XXXX 1768235338484, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338484 XXXX 1768235338484, Thread 8375: XXXX 1768235338484, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338489 XXXX 1768235338489, Thread 8375: XXXX 1768235338489, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338489 XXXX 1768235338489, Thread 8375: XXXX 1768235338489, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338489 XXXX 1768235338489, Thread 8375: XXXX 1768235338489, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338492 XXXX 1768235338492, Thread 8375: XXXX 1768235338492, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338492 XXXX 1768235338492, Thread 8375: XXXX 1768235338492, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338492 XXXX 1768235338492, Thread 8375: XXXX 1768235338492, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338497 XXXX 1768235338497, Thread 8375: XXXX 1768235338497, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338497 XXXX 1768235338497, Thread 8375: XXXX 1768235338497, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338497 XXXX 1768235338497, Thread 8375: XXXX 1768235338497, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338500 XXXX 1768235338500, Thread 8375: XXXX 1768235338500, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338500 XXXX 1768235338500, Thread 8375: XXXX 1768235338500, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338500 XXXX 1768235338500, Thread 8375: XXXX 1768235338500, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338505 XXXX 1768235338505, Thread 8375: XXXX 1768235338505, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338505 XXXX 1768235338505, Thread 8375: XXXX 1768235338505, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338505 XXXX 1768235338505, Thread 8375: XXXX 1768235338505, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338508 XXXX 1768235338508, Thread 8375: XXXX 1768235338508, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338508 XXXX 1768235338508, Thread 8375: XXXX 1768235338508, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338508 XXXX 1768235338508, Thread 8375: XXXX 1768235338508, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338513 XXXX 1768235338513, Thread 8375: XXXX 1768235338513, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338513 XXXX 1768235338513, Thread 8375: XXXX 1768235338513, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338513 XXXX 1768235338513, Thread 8375: XXXX 1768235338513, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338516 XXXX 1768235338516, Thread 8375: XXXX 1768235338516, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338516 XXXX 1768235338516, Thread 8375: XXXX 1768235338516, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338516 XXXX 1768235338516, Thread 8375: XXXX 1768235338516, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338521 XXXX 1768235338521, Thread 8375: XXXX 1768235338521, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338521 XXXX 1768235338521, Thread 8375: XXXX 1768235338521, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338521 XXXX 1768235338521, Thread 8375: XXXX 1768235338521, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338523 XXXX 1768235338523, Thread 8375: XXXX 1768235338523, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338523 XXXX 1768235338523, Thread 8375: XXXX 1768235338523, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338523 XXXX 1768235338523, Thread 8375: XXXX 1768235338523, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338528 XXXX 1768235338528, Thread 8375: XXXX 1768235338528, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338528 XXXX 1768235338528, Thread 8375: XXXX 1768235338528, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338528 XXXX 1768235338528, Thread 8375: XXXX 1768235338528, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338531 XXXX 1768235338531, Thread 8375: XXXX 1768235338531, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338531 XXXX 1768235338531, Thread 8375: XXXX 1768235338531, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338531 XXXX 1768235338531, Thread 8375: XXXX 1768235338531, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338536 XXXX 1768235338536, Thread 8375: XXXX 1768235338536, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338536 XXXX 1768235338536, Thread 8375: XXXX 1768235338536, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338536 XXXX 1768235338536, Thread 8375: XXXX 1768235338536, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338538 XXXX 1768235338538, Thread 8375: XXXX 1768235338538, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338538 XXXX 1768235338538, Thread 8375: XXXX 1768235338538, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338538 XXXX 1768235338538, Thread 8375: XXXX 1768235338538, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338543 XXXX 1768235338543, Thread 8375: XXXX 1768235338543, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338543 XXXX 1768235338543, Thread 8375: XXXX 1768235338543, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338543 XXXX 1768235338543, Thread 8375: XXXX 1768235338543, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338546 XXXX 1768235338546, Thread 8375: XXXX 1768235338546, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338546 XXXX 1768235338546, Thread 8375: XXXX 1768235338546, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338546 XXXX 1768235338546, Thread 8375: XXXX 1768235338546, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338551 XXXX 1768235338551, Thread 8375: XXXX 1768235338551, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338551 XXXX 1768235338551, Thread 8375: XXXX 1768235338551, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338551 XXXX 1768235338551, Thread 8375: XXXX 1768235338551, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338554 XXXX 1768235338554, Thread 8375: XXXX 1768235338554, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338554 XXXX 1768235338554, Thread 8375: XXXX 1768235338554, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338554 XXXX 1768235338554, Thread 8375: XXXX 1768235338554, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338559 XXXX 1768235338559, Thread 8375: XXXX 1768235338559, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338559 XXXX 1768235338559, Thread 8375: XXXX 1768235338559, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338559 XXXX 1768235338559, Thread 8375: XXXX 1768235338559, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338562 XXXX 1768235338562, Thread 8375: XXXX 1768235338562, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338562 XXXX 1768235338562, Thread 8375: XXXX 1768235338562, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338562 XXXX 1768235338562, Thread 8375: XXXX 1768235338562, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338567 XXXX 1768235338567, Thread 8375: XXXX 1768235338567, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338567 XXXX 1768235338567, Thread 8375: XXXX 1768235338567, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338567 XXXX 1768235338567, Thread 8375: XXXX 1768235338567, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338570 XXXX 1768235338570, Thread 8375: XXXX 1768235338570, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338570 XXXX 1768235338570, Thread 8375: XXXX 1768235338570, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338570 XXXX 1768235338570, Thread 8375: XXXX 1768235338570, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338575 XXXX 1768235338575, Thread 8375: XXXX 1768235338575, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338575 XXXX 1768235338575, Thread 8375: XXXX 1768235338575, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338575 XXXX 1768235338575, Thread 8375: XXXX 1768235338575, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338578 XXXX 1768235338578, Thread 8375: XXXX 1768235338578, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338578 XXXX 1768235338578, Thread 8375: XXXX 1768235338578, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338578 XXXX 1768235338578, Thread 8375: XXXX 1768235338578, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338583 XXXX 1768235338583, Thread 8375: XXXX 1768235338583, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338583 XXXX 1768235338583, Thread 8375: XXXX 1768235338583, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338583 XXXX 1768235338583, Thread 8375: XXXX 1768235338583, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338586 XXXX 1768235338586, Thread 8375: XXXX 1768235338586, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338586 XXXX 1768235338586, Thread 8375: XXXX 1768235338586, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338586 XXXX 1768235338586, Thread 8375: XXXX 1768235338586, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338591 XXXX 1768235338591, Thread 8375: XXXX 1768235338591, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338591 XXXX 1768235338591, Thread 8375: XXXX 1768235338591, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338591 XXXX 1768235338591, Thread 8375: XXXX 1768235338591, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338593 XXXX 1768235338593, Thread 8375: XXXX 1768235338593, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338593 XXXX 1768235338593, Thread 8375: XXXX 1768235338593, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338593 XXXX 1768235338593, Thread 8375: XXXX 1768235338593, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338598 XXXX 1768235338598, Thread 8375: XXXX 1768235338598, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338598 XXXX 1768235338598, Thread 8375: XXXX 1768235338598, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338598 XXXX 1768235338598, Thread 8375: XXXX 1768235338598, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338601 XXXX 1768235338601, Thread 8375: XXXX 1768235338601, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338601 XXXX 1768235338601, Thread 8375: XXXX 1768235338601, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338601 XXXX 1768235338601, Thread 8375: XXXX 1768235338601, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338606 XXXX 1768235338606, Thread 8375: XXXX 1768235338606, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338606 XXXX 1768235338606, Thread 8375: XXXX 1768235338606, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338606 XXXX 1768235338606, Thread 8375: XXXX 1768235338606, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338609 XXXX 1768235338609, Thread 8375: XXXX 1768235338609, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338609 XXXX 1768235338609, Thread 8375: XXXX 1768235338609, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338609 XXXX 1768235338609, Thread 8375: XXXX 1768235338609, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338614 XXXX 1768235338614, Thread 8375: XXXX 1768235338614, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338614 XXXX 1768235338614, Thread 8375: XXXX 1768235338614, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338614 XXXX 1768235338614, Thread 8375: XXXX 1768235338614, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338616 XXXX 1768235338616, Thread 8375: XXXX 1768235338616, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338616 XXXX 1768235338616, Thread 8375: XXXX 1768235338616, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338616 XXXX 1768235338616, Thread 8375: XXXX 1768235338616, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338621 XXXX 1768235338621, Thread 8375: XXXX 1768235338621, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338621 XXXX 1768235338621, Thread 8375: XXXX 1768235338621, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338621 XXXX 1768235338621, Thread 8375: XXXX 1768235338621, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338624 XXXX 1768235338624, Thread 8375: XXXX 1768235338624, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338624 XXXX 1768235338624, Thread 8375: XXXX 1768235338624, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338624 XXXX 1768235338624, Thread 8375: XXXX 1768235338624, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338629 XXXX 1768235338629, Thread 8375: XXXX 1768235338629, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338629 XXXX 1768235338629, Thread 8375: XXXX 1768235338629, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338629 XXXX 1768235338629, Thread 8375: XXXX 1768235338629, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338631 XXXX 1768235338631, Thread 8375: XXXX 1768235338631, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338631 XXXX 1768235338631, Thread 8375: XXXX 1768235338631, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338631 XXXX 1768235338631, Thread 8375: XXXX 1768235338631, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338636 XXXX 1768235338636, Thread 8375: XXXX 1768235338636, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338636 XXXX 1768235338636, Thread 8375: XXXX 1768235338636, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338636 XXXX 1768235338636, Thread 8375: XXXX 1768235338636, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338639 XXXX 1768235338639, Thread 8375: XXXX 1768235338639, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338639 XXXX 1768235338639, Thread 8375: XXXX 1768235338639, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338639 XXXX 1768235338639, Thread 8375: XXXX 1768235338639, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338644 XXXX 1768235338644, Thread 8375: XXXX 1768235338644, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338644 XXXX 1768235338644, Thread 8375: XXXX 1768235338644, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338644 XXXX 1768235338644, Thread 8375: XXXX 1768235338644, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338647 XXXX 1768235338647, Thread 8375: XXXX 1768235338647, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338647 XXXX 1768235338647, Thread 8375: XXXX 1768235338647, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338647 XXXX 1768235338647, Thread 8375: XXXX 1768235338647, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338652 XXXX 1768235338652, Thread 8375: XXXX 1768235338652, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338652 XXXX 1768235338652, Thread 8375: XXXX 1768235338652, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338652 XXXX 1768235338652, Thread 8375: XXXX 1768235338652, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338654 XXXX 1768235338654, Thread 8375: XXXX 1768235338654, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338654 XXXX 1768235338654, Thread 8375: XXXX 1768235338654, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338654 XXXX 1768235338654, Thread 8375: XXXX 1768235338654, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338659 XXXX 1768235338659, Thread 8375: XXXX 1768235338659, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338659 XXXX 1768235338659, Thread 8375: XXXX 1768235338659, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338659 XXXX 1768235338659, Thread 8375: XXXX 1768235338659, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338661 XXXX 1768235338661, Thread 8375: XXXX 1768235338661, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338661 XXXX 1768235338661, Thread 8375: XXXX 1768235338661, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338661 XXXX 1768235338661, Thread 8375: XXXX 1768235338661, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338666 XXXX 1768235338666, Thread 8375: XXXX 1768235338666, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338666 XXXX 1768235338666, Thread 8375: XXXX 1768235338666, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338666 XXXX 1768235338666, Thread 8375: XXXX 1768235338666, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338668 XXXX 1768235338668, Thread 8375: XXXX 1768235338668, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338668 XXXX 1768235338668, Thread 8375: XXXX 1768235338668, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338668 XXXX 1768235338668, Thread 8375: XXXX 1768235338668, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338673 XXXX 1768235338673, Thread 8375: XXXX 1768235338673, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338673 XXXX 1768235338673, Thread 8375: XXXX 1768235338673, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338673 XXXX 1768235338673, Thread 8375: XXXX 1768235338673, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338675 XXXX 1768235338675, Thread 8375: XXXX 1768235338675, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338675 XXXX 1768235338675, Thread 8375: XXXX 1768235338675, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338675 XXXX 1768235338675, Thread 8375: XXXX 1768235338675, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338680 XXXX 1768235338680, Thread 8375: XXXX 1768235338680, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338680 XXXX 1768235338680, Thread 8375: XXXX 1768235338680, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338680 XXXX 1768235338680, Thread 8375: XXXX 1768235338680, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338682 XXXX 1768235338682, Thread 8375: XXXX 1768235338682, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338682 XXXX 1768235338682, Thread 8375: XXXX 1768235338682, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338682 XXXX 1768235338682, Thread 8375: XXXX 1768235338682, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338687 XXXX 1768235338687, Thread 8375: XXXX 1768235338687, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338687 XXXX 1768235338687, Thread 8375: XXXX 1768235338687, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338687 XXXX 1768235338687, Thread 8375: XXXX 1768235338687, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338692 XXXX 1768235338692, Thread 8375: XXXX 1768235338692, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338692 XXXX 1768235338692, Thread 8375: XXXX 1768235338692, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338692 XXXX 1768235338692, Thread 8375: XXXX 1768235338692, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338697 XXXX 1768235338697, Thread 8375: XXXX 1768235338697, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338697 XXXX 1768235338697, Thread 8375: XXXX 1768235338697, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338697 XXXX 1768235338697, Thread 8375: XXXX 1768235338697, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338700 XXXX 1768235338700, Thread 8375: XXXX 1768235338700, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338700 XXXX 1768235338700, Thread 8375: XXXX 1768235338700, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338700 XXXX 1768235338700, Thread 8375: XXXX 1768235338700, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338705 XXXX 1768235338705, Thread 8375: XXXX 1768235338705, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338705 XXXX 1768235338705, Thread 8375: XXXX 1768235338705, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338705 XXXX 1768235338705, Thread 8375: XXXX 1768235338705, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338708 XXXX 1768235338708, Thread 8375: XXXX 1768235338708, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338708 XXXX 1768235338708, Thread 8375: XXXX 1768235338708, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338708 XXXX 1768235338708, Thread 8375: XXXX 1768235338708, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338713 XXXX 1768235338713, Thread 8375: XXXX 1768235338713, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338713 XXXX 1768235338713, Thread 8375: XXXX 1768235338713, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338713 XXXX 1768235338713, Thread 8375: XXXX 1768235338713, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338715 XXXX 1768235338715, Thread 8375: XXXX 1768235338715, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338715 XXXX 1768235338715, Thread 8375: XXXX 1768235338715, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338715 XXXX 1768235338715, Thread 8375: XXXX 1768235338715, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338720 XXXX 1768235338720, Thread 8375: XXXX 1768235338720, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338720 XXXX 1768235338720, Thread 8375: XXXX 1768235338720, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338720 XXXX 1768235338720, Thread 8375: XXXX 1768235338720, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338723 XXXX 1768235338723, Thread 8375: XXXX 1768235338723, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338723 XXXX 1768235338723, Thread 8375: XXXX 1768235338723, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338723 XXXX 1768235338723, Thread 8375: XXXX 1768235338723, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338728 XXXX 1768235338728, Thread 8375: XXXX 1768235338728, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338728 XXXX 1768235338728, Thread 8375: XXXX 1768235338728, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338728 XXXX 1768235338728, Thread 8375: XXXX 1768235338728, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338731 XXXX 1768235338731, Thread 8375: XXXX 1768235338731, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338731 XXXX 1768235338731, Thread 8375: XXXX 1768235338731, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338731 XXXX 1768235338731, Thread 8375: XXXX 1768235338731, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338736 XXXX 1768235338736, Thread 8375: XXXX 1768235338736, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338736 XXXX 1768235338736, Thread 8375: XXXX 1768235338736, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338736 XXXX 1768235338736, Thread 8375: XXXX 1768235338736, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338739 XXXX 1768235338739, Thread 8375: XXXX 1768235338739, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338739 XXXX 1768235338739, Thread 8375: XXXX 1768235338739, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338739 XXXX 1768235338739, Thread 8375: XXXX 1768235338739, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338744 XXXX 1768235338744, Thread 8375: XXXX 1768235338744, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338744 XXXX 1768235338744, Thread 8375: XXXX 1768235338744, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338744 XXXX 1768235338744, Thread 8375: XXXX 1768235338744, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338748 XXXX 1768235338748, Thread 8375: XXXX 1768235338748, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338748 XXXX 1768235338748, Thread 8375: XXXX 1768235338748, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338748 XXXX 1768235338748, Thread 8375: XXXX 1768235338748, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338753 XXXX 1768235338753, Thread 8375: XXXX 1768235338753, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338753 XXXX 1768235338753, Thread 8375: XXXX 1768235338753, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338753 XXXX 1768235338753, Thread 8375: XXXX 1768235338753, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338755 XXXX 1768235338755, Thread 8375: XXXX 1768235338755, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338755 XXXX 1768235338755, Thread 8375: XXXX 1768235338755, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338755 XXXX 1768235338755, Thread 8375: XXXX 1768235338755, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338760 XXXX 1768235338760, Thread 8375: XXXX 1768235338760, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338760 XXXX 1768235338760, Thread 8375: XXXX 1768235338760, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338760 XXXX 1768235338760, Thread 8375: XXXX 1768235338760, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338763 XXXX 1768235338763, Thread 8375: XXXX 1768235338763, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338763 XXXX 1768235338763, Thread 8375: XXXX 1768235338763, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338763 XXXX 1768235338763, Thread 8375: XXXX 1768235338763, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338768 XXXX 1768235338768, Thread 8375: XXXX 1768235338768, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338768 XXXX 1768235338768, Thread 8375: XXXX 1768235338768, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338768 XXXX 1768235338768, Thread 8375: XXXX 1768235338768, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338771 XXXX 1768235338771, Thread 8375: XXXX 1768235338771, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338771 XXXX 1768235338771, Thread 8375: XXXX 1768235338771, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338771 XXXX 1768235338771, Thread 8375: XXXX 1768235338771, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338776 XXXX 1768235338776, Thread 8375: XXXX 1768235338776, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338776 XXXX 1768235338776, Thread 8375: XXXX 1768235338776, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338776 XXXX 1768235338776, Thread 8375: XXXX 1768235338776, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338779 XXXX 1768235338779, Thread 8375: XXXX 1768235338779, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338779 XXXX 1768235338779, Thread 8375: XXXX 1768235338779, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338779 XXXX 1768235338779, Thread 8375: XXXX 1768235338779, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338784 XXXX 1768235338784, Thread 8375: XXXX 1768235338784, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338784 XXXX 1768235338784, Thread 8375: XXXX 1768235338784, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338784 XXXX 1768235338784, Thread 8375: XXXX 1768235338784, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338786 XXXX 1768235338786, Thread 8375: XXXX 1768235338786, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338786 XXXX 1768235338786, Thread 8375: XXXX 1768235338786, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338786 XXXX 1768235338786, Thread 8375: XXXX 1768235338786, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338791 XXXX 1768235338791, Thread 8375: XXXX 1768235338791, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338791 XXXX 1768235338791, Thread 8375: XXXX 1768235338791, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338791 XXXX 1768235338791, Thread 8375: XXXX 1768235338791, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338795 XXXX 1768235338795, Thread 8375: XXXX 1768235338795, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338795 XXXX 1768235338795, Thread 8375: XXXX 1768235338795, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338795 XXXX 1768235338795, Thread 8375: XXXX 1768235338795, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338800 XXXX 1768235338800, Thread 8375: XXXX 1768235338800, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338800 XXXX 1768235338800, Thread 8375: XXXX 1768235338800, Entering Thread 8375: Commands::runScriptWithUpload, script name = ReadSFR  
+8375 1768235338800 XXXX 1768235338800, Thread 8375: XXXX 1768235338800, Entering Thread 8375: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+8375 1768235338804 XXXX 1768235338804, Thread 8375: XXXX 1768235338804, Exiting Thread 8375: ToolCommUsb::readTransfer,  cr.status = 0x0  
+8375 1768235338804 XXXX 1768235338804, Thread 8375: XXXX 1768235338804, Exiting Thread 8375: Commands::runScriptWithUpload  
+8375 1768235338804 XXXX 1768235338804, Thread 8375: XXXX 1768235338804, Entering Thread 8375: Commands::runScriptWithDownload, script name = WriteSFR  
+8375 1768235338809 XXXX 1768235338809, Thread 8375: XXXX 1768235338809, Exiting Thread 8375: Commands::runScriptWithDownload(WriteSFR)  
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:SetFreezePerihperalInfo
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 none
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
 
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:init
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: Values:
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: pcAddress = 0000002e, Vpp = 3,25, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0,00, deviceName = dsPIC33EP512MU814, programmerType = DSPIC33EP
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: MemInfo values:
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffffff, exists = true, startAddr = 00000000, endAddr = 007fffff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffff, exists = true, startAddr = 00f80004, endAddr = 00f80011, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0800, addrInc = 0000, widthProgram = 0000
-322 1768235537750 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 00ff, exists = true, startAddr = 00f80012, endAddr = 00f80013, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffffff, exists = true, startAddr = 00800000, endAddr = 00800fff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 7fffffff, exists = true, startAddr = 00ff0000, endAddr = 00ff0003, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: CfgRequiredBitsMask Values:
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80004, Mask = 00000003
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80006, Mask = 00000087
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80008, Mask = 000000e7
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000a, Mask = 000000ff
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000c, Mask = 0000003f
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000e, Mask = 00000077
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80010, Mask = 00000003
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 BasicInfo: Values:
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@815b02e3, ToolFlavor = PIC32C
-322 1768235537751 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:init
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 none
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+8375 1768235338809 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+8375 1768235338809 XXXX 1768235338809, Thread 8375: XXXX 1768235338809, Entering Thread 8375: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+8375 1768235338810 XXXX 1768235338810, Thread 8375: XXXX 1768235338810, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235338810 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
+8375 1768235338810 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+8375 1768235338810 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+8375 1768235338810 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
 
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4DebugInterface
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4DebugInterfaceImpl@1eeece1d
-322 1768235541776 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
+8375 1768235338827 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:RunTarget
+8375 1768235338827 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+8375 1768235338827 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.mdbcore.RI4Tool.DebugHandler@613efb14
+8375 1768235338827 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+8375 1768235338827 XXXX 1768235338827, Thread 8375: XXXX 1768235338827, Entering Thread 8375: Commands::runScriptBasic, script name = Run, timeOut = -1 ms  
+8375 1768235338828 XXXX 1768235338828, Thread 8375: XXXX 1768235338828, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235338828 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:RunTarget
+8375 1768235338828 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+8375 1768235338828 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+8375 1768235338828 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+8375 1768235339085 XXXX 1768235339085, Thread 8375: XXXX 1768235339085, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339087 XXXX 1768235339087, Thread 8375: XXXX 1768235339087, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339185 XXXX 1768235339185, Thread 8375: XXXX 1768235339185, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339187 XXXX 1768235339187, Thread 8375: XXXX 1768235339187, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339285 XXXX 1768235339285, Thread 8375: XXXX 1768235339285, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339287 XXXX 1768235339287, Thread 8375: XXXX 1768235339287, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339392 XXXX 1768235339392, Thread 8375: XXXX 1768235339392, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339394 XXXX 1768235339394, Thread 8375: XXXX 1768235339394, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339497 XXXX 1768235339497, Thread 8375: XXXX 1768235339497, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339499 XXXX 1768235339499, Thread 8375: XXXX 1768235339499, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339598 XXXX 1768235339598, Thread 8375: XXXX 1768235339598, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339600 XXXX 1768235339600, Thread 8375: XXXX 1768235339600, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339698 XXXX 1768235339698, Thread 8375: XXXX 1768235339698, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339700 XXXX 1768235339700, Thread 8375: XXXX 1768235339700, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339798 XXXX 1768235339798, Thread 8375: XXXX 1768235339798, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339800 XXXX 1768235339800, Thread 8375: XXXX 1768235339800, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235339899 XXXX 1768235339899, Thread 8375: XXXX 1768235339899, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235339901 XXXX 1768235339901, Thread 8375: XXXX 1768235339901, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340004 XXXX 1768235340004, Thread 8375: XXXX 1768235340004, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340006 XXXX 1768235340006, Thread 8375: XXXX 1768235340006, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340104 XXXX 1768235340104, Thread 8375: XXXX 1768235340104, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340106 XXXX 1768235340106, Thread 8375: XXXX 1768235340106, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340205 XXXX 1768235340205, Thread 8375: XXXX 1768235340205, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340207 XXXX 1768235340207, Thread 8375: XXXX 1768235340207, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340305 XXXX 1768235340305, Thread 8375: XXXX 1768235340305, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340307 XXXX 1768235340307, Thread 8375: XXXX 1768235340307, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340405 XXXX 1768235340405, Thread 8375: XXXX 1768235340405, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340407 XXXX 1768235340407, Thread 8375: XXXX 1768235340407, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340512 XXXX 1768235340512, Thread 8375: XXXX 1768235340512, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340514 XXXX 1768235340514, Thread 8375: XXXX 1768235340514, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340613 XXXX 1768235340613, Thread 8375: XXXX 1768235340613, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340615 XXXX 1768235340615, Thread 8375: XXXX 1768235340615, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340713 XXXX 1768235340713, Thread 8375: XXXX 1768235340713, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340715 XXXX 1768235340715, Thread 8375: XXXX 1768235340715, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340814 XXXX 1768235340814, Thread 8375: XXXX 1768235340814, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340816 XXXX 1768235340816, Thread 8375: XXXX 1768235340816, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235340915 XXXX 1768235340915, Thread 8375: XXXX 1768235340915, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235340917 XXXX 1768235340917, Thread 8375: XXXX 1768235340917, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341015 XXXX 1768235341015, Thread 8375: XXXX 1768235341015, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341017 XXXX 1768235341017, Thread 8375: XXXX 1768235341017, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341116 XXXX 1768235341116, Thread 8375: XXXX 1768235341116, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341118 XXXX 1768235341118, Thread 8375: XXXX 1768235341118, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341216 XXXX 1768235341216, Thread 8375: XXXX 1768235341216, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341218 XXXX 1768235341218, Thread 8375: XXXX 1768235341218, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341317 XXXX 1768235341317, Thread 8375: XXXX 1768235341317, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341319 XXXX 1768235341319, Thread 8375: XXXX 1768235341319, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341421 XXXX 1768235341421, Thread 8375: XXXX 1768235341421, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341423 XXXX 1768235341423, Thread 8375: XXXX 1768235341423, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341523 XXXX 1768235341523, Thread 8375: XXXX 1768235341523, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341525 XXXX 1768235341525, Thread 8375: XXXX 1768235341525, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341625 XXXX 1768235341625, Thread 8375: XXXX 1768235341625, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341627 XXXX 1768235341627, Thread 8375: XXXX 1768235341627, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341725 XXXX 1768235341725, Thread 8375: XXXX 1768235341725, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341727 XXXX 1768235341727, Thread 8375: XXXX 1768235341727, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341825 XXXX 1768235341825, Thread 8375: XXXX 1768235341825, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341827 XXXX 1768235341827, Thread 8375: XXXX 1768235341827, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235341927 XXXX 1768235341927, Thread 8375: XXXX 1768235341927, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235341930 XXXX 1768235341930, Thread 8375: XXXX 1768235341930, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342030 XXXX 1768235342030, Thread 8375: XXXX 1768235342030, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342032 XXXX 1768235342032, Thread 8375: XXXX 1768235342032, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342132 XXXX 1768235342132, Thread 8375: XXXX 1768235342132, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342135 XXXX 1768235342135, Thread 8375: XXXX 1768235342135, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342233 XXXX 1768235342233, Thread 8375: XXXX 1768235342233, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342235 XXXX 1768235342235, Thread 8375: XXXX 1768235342235, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342334 XXXX 1768235342334, Thread 8375: XXXX 1768235342334, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342336 XXXX 1768235342336, Thread 8375: XXXX 1768235342336, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342437 XXXX 1768235342437, Thread 8375: XXXX 1768235342437, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342439 XXXX 1768235342439, Thread 8375: XXXX 1768235342439, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342541 XXXX 1768235342541, Thread 8375: XXXX 1768235342541, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342543 XXXX 1768235342543, Thread 8375: XXXX 1768235342543, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342644 XXXX 1768235342644, Thread 8375: XXXX 1768235342644, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342646 XXXX 1768235342646, Thread 8375: XXXX 1768235342646, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342744 XXXX 1768235342744, Thread 8375: XXXX 1768235342744, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342746 XXXX 1768235342746, Thread 8375: XXXX 1768235342746, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342846 XXXX 1768235342846, Thread 8375: XXXX 1768235342846, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342848 XXXX 1768235342848, Thread 8375: XXXX 1768235342848, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235342947 XXXX 1768235342947, Thread 8375: XXXX 1768235342947, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235342949 XXXX 1768235342949, Thread 8375: XXXX 1768235342949, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343047 XXXX 1768235343047, Thread 8375: XXXX 1768235343047, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343049 XXXX 1768235343049, Thread 8375: XXXX 1768235343049, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343148 XXXX 1768235343148, Thread 8375: XXXX 1768235343148, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343150 XXXX 1768235343150, Thread 8375: XXXX 1768235343150, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343249 XXXX 1768235343249, Thread 8375: XXXX 1768235343249, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343251 XXXX 1768235343251, Thread 8375: XXXX 1768235343251, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343350 XXXX 1768235343350, Thread 8375: XXXX 1768235343350, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343352 XXXX 1768235343352, Thread 8375: XXXX 1768235343352, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343453 XXXX 1768235343453, Thread 8375: XXXX 1768235343453, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343455 XXXX 1768235343455, Thread 8375: XXXX 1768235343455, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343553 XXXX 1768235343553, Thread 8375: XXXX 1768235343553, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343555 XXXX 1768235343555, Thread 8375: XXXX 1768235343555, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343657 XXXX 1768235343657, Thread 8375: XXXX 1768235343657, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343659 XXXX 1768235343659, Thread 8375: XXXX 1768235343659, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343757 XXXX 1768235343757, Thread 8375: XXXX 1768235343757, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343759 XXXX 1768235343759, Thread 8375: XXXX 1768235343759, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343858 XXXX 1768235343858, Thread 8375: XXXX 1768235343858, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343860 XXXX 1768235343860, Thread 8375: XXXX 1768235343860, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235343962 XXXX 1768235343962, Thread 8375: XXXX 1768235343962, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235343964 XXXX 1768235343964, Thread 8375: XXXX 1768235343964, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344063 XXXX 1768235344063, Thread 8375: XXXX 1768235344063, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344065 XXXX 1768235344065, Thread 8375: XXXX 1768235344065, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344167 XXXX 1768235344167, Thread 8375: XXXX 1768235344167, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344169 XXXX 1768235344169, Thread 8375: XXXX 1768235344169, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344267 XXXX 1768235344267, Thread 8375: XXXX 1768235344267, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344269 XXXX 1768235344269, Thread 8375: XXXX 1768235344269, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344368 XXXX 1768235344368, Thread 8375: XXXX 1768235344368, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344370 XXXX 1768235344370, Thread 8375: XXXX 1768235344370, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344470 XXXX 1768235344470, Thread 8375: XXXX 1768235344470, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344472 XXXX 1768235344472, Thread 8375: XXXX 1768235344472, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344570 XXXX 1768235344570, Thread 8375: XXXX 1768235344570, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344572 XXXX 1768235344572, Thread 8375: XXXX 1768235344572, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344675 XXXX 1768235344675, Thread 8375: XXXX 1768235344675, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344677 XXXX 1768235344677, Thread 8375: XXXX 1768235344677, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344775 XXXX 1768235344775, Thread 8375: XXXX 1768235344775, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344777 XXXX 1768235344777, Thread 8375: XXXX 1768235344777, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344876 XXXX 1768235344876, Thread 8375: XXXX 1768235344876, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344878 XXXX 1768235344878, Thread 8375: XXXX 1768235344878, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235344982 XXXX 1768235344982, Thread 8375: XXXX 1768235344982, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235344984 XXXX 1768235344984, Thread 8375: XXXX 1768235344984, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345084 XXXX 1768235345084, Thread 8375: XXXX 1768235345084, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345086 XXXX 1768235345086, Thread 8375: XXXX 1768235345086, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345184 XXXX 1768235345184, Thread 8375: XXXX 1768235345184, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345186 XXXX 1768235345186, Thread 8375: XXXX 1768235345186, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345285 XXXX 1768235345285, Thread 8375: XXXX 1768235345285, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345287 XXXX 1768235345287, Thread 8375: XXXX 1768235345287, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345387 XXXX 1768235345387, Thread 8375: XXXX 1768235345387, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345389 XXXX 1768235345389, Thread 8375: XXXX 1768235345389, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345488 XXXX 1768235345488, Thread 8375: XXXX 1768235345488, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345491 XXXX 1768235345491, Thread 8375: XXXX 1768235345491, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345590 XXXX 1768235345590, Thread 8375: XXXX 1768235345590, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345592 XXXX 1768235345592, Thread 8375: XXXX 1768235345592, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345691 XXXX 1768235345691, Thread 8375: XXXX 1768235345691, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345693 XXXX 1768235345693, Thread 8375: XXXX 1768235345693, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345792 XXXX 1768235345792, Thread 8375: XXXX 1768235345792, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345794 XXXX 1768235345794, Thread 8375: XXXX 1768235345794, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345893 XXXX 1768235345893, Thread 8375: XXXX 1768235345893, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345895 XXXX 1768235345895, Thread 8375: XXXX 1768235345895, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235345995 XXXX 1768235345995, Thread 8375: XXXX 1768235345995, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235345997 XXXX 1768235345997, Thread 8375: XXXX 1768235345997, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346097 XXXX 1768235346097, Thread 8375: XXXX 1768235346097, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346099 XXXX 1768235346099, Thread 8375: XXXX 1768235346099, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346197 XXXX 1768235346197, Thread 8375: XXXX 1768235346197, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346199 XXXX 1768235346199, Thread 8375: XXXX 1768235346199, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346298 XXXX 1768235346298, Thread 8375: XXXX 1768235346298, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346300 XXXX 1768235346300, Thread 8375: XXXX 1768235346300, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346399 XXXX 1768235346399, Thread 8375: XXXX 1768235346399, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346401 XXXX 1768235346401, Thread 8375: XXXX 1768235346401, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346502 XXXX 1768235346502, Thread 8375: XXXX 1768235346502, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346504 XXXX 1768235346504, Thread 8375: XXXX 1768235346504, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346606 XXXX 1768235346606, Thread 8375: XXXX 1768235346606, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346608 XXXX 1768235346608, Thread 8375: XXXX 1768235346608, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346707 XXXX 1768235346707, Thread 8375: XXXX 1768235346707, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346709 XXXX 1768235346709, Thread 8375: XXXX 1768235346709, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346808 XXXX 1768235346808, Thread 8375: XXXX 1768235346808, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346810 XXXX 1768235346810, Thread 8375: XXXX 1768235346810, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235346908 XXXX 1768235346908, Thread 8375: XXXX 1768235346908, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235346910 XXXX 1768235346910, Thread 8375: XXXX 1768235346910, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347010 XXXX 1768235347010, Thread 8375: XXXX 1768235347010, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347012 XXXX 1768235347012, Thread 8375: XXXX 1768235347012, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347110 XXXX 1768235347110, Thread 8375: XXXX 1768235347110, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347112 XXXX 1768235347112, Thread 8375: XXXX 1768235347112, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347211 XXXX 1768235347211, Thread 8375: XXXX 1768235347211, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347213 XXXX 1768235347213, Thread 8375: XXXX 1768235347213, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347312 XXXX 1768235347312, Thread 8375: XXXX 1768235347312, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347314 XXXX 1768235347314, Thread 8375: XXXX 1768235347314, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347412 XXXX 1768235347412, Thread 8375: XXXX 1768235347412, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347414 XXXX 1768235347414, Thread 8375: XXXX 1768235347414, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347513 XXXX 1768235347513, Thread 8375: XXXX 1768235347513, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347515 XXXX 1768235347515, Thread 8375: XXXX 1768235347515, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347613 XXXX 1768235347613, Thread 8375: XXXX 1768235347613, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347615 XXXX 1768235347615, Thread 8375: XXXX 1768235347615, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347713 XXXX 1768235347713, Thread 8375: XXXX 1768235347713, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347715 XXXX 1768235347715, Thread 8375: XXXX 1768235347715, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347814 XXXX 1768235347814, Thread 8375: XXXX 1768235347814, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347816 XXXX 1768235347816, Thread 8375: XXXX 1768235347816, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235347916 XXXX 1768235347916, Thread 8375: XXXX 1768235347916, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235347918 XXXX 1768235347918, Thread 8375: XXXX 1768235347918, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348016 XXXX 1768235348016, Thread 8375: XXXX 1768235348016, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348018 XXXX 1768235348018, Thread 8375: XXXX 1768235348018, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348120 XXXX 1768235348120, Thread 8375: XXXX 1768235348120, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348122 XXXX 1768235348122, Thread 8375: XXXX 1768235348122, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348220 XXXX 1768235348220, Thread 8375: XXXX 1768235348220, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348222 XXXX 1768235348222, Thread 8375: XXXX 1768235348222, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348321 XXXX 1768235348321, Thread 8375: XXXX 1768235348321, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348323 XXXX 1768235348323, Thread 8375: XXXX 1768235348323, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348421 XXXX 1768235348421, Thread 8375: XXXX 1768235348421, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348423 XXXX 1768235348423, Thread 8375: XXXX 1768235348423, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348524 XXXX 1768235348524, Thread 8375: XXXX 1768235348524, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348526 XXXX 1768235348526, Thread 8375: XXXX 1768235348526, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348624 XXXX 1768235348624, Thread 8375: XXXX 1768235348624, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348626 XXXX 1768235348626, Thread 8375: XXXX 1768235348626, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348726 XXXX 1768235348726, Thread 8375: XXXX 1768235348726, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348728 XXXX 1768235348728, Thread 8375: XXXX 1768235348728, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348827 XXXX 1768235348827, Thread 8375: XXXX 1768235348827, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348829 XXXX 1768235348829, Thread 8375: XXXX 1768235348829, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235348929 XXXX 1768235348929, Thread 8375: XXXX 1768235348929, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235348932 XXXX 1768235348932, Thread 8375: XXXX 1768235348932, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349029 XXXX 1768235349029, Thread 8375: XXXX 1768235349029, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349031 XXXX 1768235349031, Thread 8375: XXXX 1768235349031, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349130 XXXX 1768235349130, Thread 8375: XXXX 1768235349130, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349132 XXXX 1768235349132, Thread 8375: XXXX 1768235349132, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349230 XXXX 1768235349230, Thread 8375: XXXX 1768235349230, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349232 XXXX 1768235349232, Thread 8375: XXXX 1768235349232, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349331 XXXX 1768235349331, Thread 8375: XXXX 1768235349331, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349333 XXXX 1768235349333, Thread 8375: XXXX 1768235349333, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349435 XXXX 1768235349435, Thread 8375: XXXX 1768235349435, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349437 XXXX 1768235349437, Thread 8375: XXXX 1768235349437, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349540 XXXX 1768235349540, Thread 8375: XXXX 1768235349540, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349542 XXXX 1768235349542, Thread 8375: XXXX 1768235349542, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349641 XXXX 1768235349641, Thread 8375: XXXX 1768235349641, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349643 XXXX 1768235349643, Thread 8375: XXXX 1768235349643, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349742 XXXX 1768235349742, Thread 8375: XXXX 1768235349742, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349744 XXXX 1768235349744, Thread 8375: XXXX 1768235349744, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349843 XXXX 1768235349843, Thread 8375: XXXX 1768235349843, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349845 XXXX 1768235349845, Thread 8375: XXXX 1768235349845, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235349944 XXXX 1768235349944, Thread 8375: XXXX 1768235349944, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235349946 XXXX 1768235349946, Thread 8375: XXXX 1768235349946, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350044 XXXX 1768235350044, Thread 8375: XXXX 1768235350044, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350046 XXXX 1768235350046, Thread 8375: XXXX 1768235350046, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350145 XXXX 1768235350145, Thread 8375: XXXX 1768235350145, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350147 XXXX 1768235350147, Thread 8375: XXXX 1768235350147, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350245 XXXX 1768235350245, Thread 8375: XXXX 1768235350245, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350247 XXXX 1768235350247, Thread 8375: XXXX 1768235350247, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350346 XXXX 1768235350346, Thread 8375: XXXX 1768235350346, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350348 XXXX 1768235350348, Thread 8375: XXXX 1768235350348, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350448 XXXX 1768235350448, Thread 8375: XXXX 1768235350448, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350450 XXXX 1768235350450, Thread 8375: XXXX 1768235350450, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350551 XXXX 1768235350551, Thread 8375: XXXX 1768235350551, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350553 XXXX 1768235350553, Thread 8375: XXXX 1768235350553, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350651 XXXX 1768235350651, Thread 8375: XXXX 1768235350651, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350653 XXXX 1768235350653, Thread 8375: XXXX 1768235350653, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350752 XXXX 1768235350752, Thread 8375: XXXX 1768235350752, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350754 XXXX 1768235350754, Thread 8375: XXXX 1768235350754, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350853 XXXX 1768235350853, Thread 8375: XXXX 1768235350853, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350855 XXXX 1768235350855, Thread 8375: XXXX 1768235350855, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235350954 XXXX 1768235350954, Thread 8375: XXXX 1768235350954, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235350956 XXXX 1768235350956, Thread 8375: XXXX 1768235350956, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351059 XXXX 1768235351059, Thread 8375: XXXX 1768235351059, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351061 XXXX 1768235351061, Thread 8375: XXXX 1768235351061, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351159 XXXX 1768235351159, Thread 8375: XXXX 1768235351159, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351161 XXXX 1768235351161, Thread 8375: XXXX 1768235351161, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351259 XXXX 1768235351259, Thread 8375: XXXX 1768235351259, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351261 XXXX 1768235351261, Thread 8375: XXXX 1768235351261, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351360 XXXX 1768235351360, Thread 8375: XXXX 1768235351360, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351362 XXXX 1768235351362, Thread 8375: XXXX 1768235351362, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351463 XXXX 1768235351463, Thread 8375: XXXX 1768235351463, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351465 XXXX 1768235351465, Thread 8375: XXXX 1768235351465, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351564 XXXX 1768235351564, Thread 8375: XXXX 1768235351564, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351566 XXXX 1768235351566, Thread 8375: XXXX 1768235351566, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351665 XXXX 1768235351665, Thread 8375: XXXX 1768235351665, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351667 XXXX 1768235351667, Thread 8375: XXXX 1768235351667, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351765 XXXX 1768235351765, Thread 8375: XXXX 1768235351765, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351767 XXXX 1768235351767, Thread 8375: XXXX 1768235351767, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351866 XXXX 1768235351866, Thread 8375: XXXX 1768235351866, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351868 XXXX 1768235351868, Thread 8375: XXXX 1768235351868, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235351967 XXXX 1768235351967, Thread 8375: XXXX 1768235351967, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235351969 XXXX 1768235351969, Thread 8375: XXXX 1768235351969, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352071 XXXX 1768235352071, Thread 8375: XXXX 1768235352071, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352073 XXXX 1768235352073, Thread 8375: XXXX 1768235352073, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352171 XXXX 1768235352171, Thread 8375: XXXX 1768235352171, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352173 XXXX 1768235352173, Thread 8375: XXXX 1768235352173, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352271 XXXX 1768235352271, Thread 8375: XXXX 1768235352271, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352273 XXXX 1768235352273, Thread 8375: XXXX 1768235352273, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352372 XXXX 1768235352372, Thread 8375: XXXX 1768235352372, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352374 XXXX 1768235352374, Thread 8375: XXXX 1768235352374, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352473 XXXX 1768235352473, Thread 8375: XXXX 1768235352473, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352475 XXXX 1768235352475, Thread 8375: XXXX 1768235352475, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352573 XXXX 1768235352573, Thread 8375: XXXX 1768235352573, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352575 XXXX 1768235352575, Thread 8375: XXXX 1768235352575, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352677 XXXX 1768235352677, Thread 8375: XXXX 1768235352677, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352679 XXXX 1768235352679, Thread 8375: XXXX 1768235352679, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352777 XXXX 1768235352777, Thread 8375: XXXX 1768235352777, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352779 XXXX 1768235352779, Thread 8375: XXXX 1768235352779, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352878 XXXX 1768235352878, Thread 8375: XXXX 1768235352878, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352880 XXXX 1768235352880, Thread 8375: XXXX 1768235352880, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235352978 XXXX 1768235352978, Thread 8375: XXXX 1768235352978, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235352980 XXXX 1768235352980, Thread 8375: XXXX 1768235352980, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353079 XXXX 1768235353079, Thread 8375: XXXX 1768235353079, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353081 XXXX 1768235353081, Thread 8375: XXXX 1768235353081, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353179 XXXX 1768235353179, Thread 8375: XXXX 1768235353179, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353181 XXXX 1768235353181, Thread 8375: XXXX 1768235353181, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353281 XXXX 1768235353281, Thread 8375: XXXX 1768235353281, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353283 XXXX 1768235353283, Thread 8375: XXXX 1768235353283, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353382 XXXX 1768235353382, Thread 8375: XXXX 1768235353382, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353384 XXXX 1768235353384, Thread 8375: XXXX 1768235353384, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353485 XXXX 1768235353485, Thread 8375: XXXX 1768235353485, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353487 XXXX 1768235353487, Thread 8375: XXXX 1768235353487, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353588 XXXX 1768235353588, Thread 8375: XXXX 1768235353588, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353590 XXXX 1768235353590, Thread 8375: XXXX 1768235353590, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353688 XXXX 1768235353688, Thread 8375: XXXX 1768235353688, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353690 XXXX 1768235353690, Thread 8375: XXXX 1768235353690, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353790 XXXX 1768235353790, Thread 8375: XXXX 1768235353790, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353792 XXXX 1768235353792, Thread 8375: XXXX 1768235353792, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353891 XXXX 1768235353891, Thread 8375: XXXX 1768235353891, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353893 XXXX 1768235353893, Thread 8375: XXXX 1768235353893, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235353993 XXXX 1768235353993, Thread 8375: XXXX 1768235353993, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235353995 XXXX 1768235353995, Thread 8375: XXXX 1768235353995, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354094 XXXX 1768235354094, Thread 8375: XXXX 1768235354094, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354096 XXXX 1768235354096, Thread 8375: XXXX 1768235354096, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354194 XXXX 1768235354194, Thread 8375: XXXX 1768235354194, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354196 XXXX 1768235354196, Thread 8375: XXXX 1768235354196, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354294 XXXX 1768235354294, Thread 8375: XXXX 1768235354294, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354296 XXXX 1768235354296, Thread 8375: XXXX 1768235354296, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354395 XXXX 1768235354395, Thread 8375: XXXX 1768235354395, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354397 XXXX 1768235354397, Thread 8375: XXXX 1768235354397, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354497 XXXX 1768235354497, Thread 8375: XXXX 1768235354497, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354499 XXXX 1768235354499, Thread 8375: XXXX 1768235354499, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354599 XXXX 1768235354599, Thread 8375: XXXX 1768235354599, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354601 XXXX 1768235354601, Thread 8375: XXXX 1768235354601, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354699 XXXX 1768235354699, Thread 8375: XXXX 1768235354699, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354701 XXXX 1768235354701, Thread 8375: XXXX 1768235354701, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354800 XXXX 1768235354800, Thread 8375: XXXX 1768235354800, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354802 XXXX 1768235354802, Thread 8375: XXXX 1768235354802, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235354902 XXXX 1768235354902, Thread 8375: XXXX 1768235354902, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235354904 XXXX 1768235354904, Thread 8375: XXXX 1768235354904, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355007 XXXX 1768235355007, Thread 8375: XXXX 1768235355007, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355009 XXXX 1768235355009, Thread 8375: XXXX 1768235355009, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355107 XXXX 1768235355107, Thread 8375: XXXX 1768235355107, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355109 XXXX 1768235355109, Thread 8375: XXXX 1768235355109, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355207 XXXX 1768235355207, Thread 8375: XXXX 1768235355207, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355209 XXXX 1768235355209, Thread 8375: XXXX 1768235355209, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355308 XXXX 1768235355308, Thread 8375: XXXX 1768235355308, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355310 XXXX 1768235355310, Thread 8375: XXXX 1768235355310, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355410 XXXX 1768235355410, Thread 8375: XXXX 1768235355410, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355412 XXXX 1768235355412, Thread 8375: XXXX 1768235355412, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355512 XXXX 1768235355512, Thread 8375: XXXX 1768235355512, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355514 XXXX 1768235355514, Thread 8375: XXXX 1768235355514, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355612 XXXX 1768235355612, Thread 8375: XXXX 1768235355612, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355614 XXXX 1768235355614, Thread 8375: XXXX 1768235355614, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355712 XXXX 1768235355712, Thread 8375: XXXX 1768235355712, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355714 XXXX 1768235355714, Thread 8375: XXXX 1768235355714, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355813 XXXX 1768235355813, Thread 8375: XXXX 1768235355813, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355815 XXXX 1768235355815, Thread 8375: XXXX 1768235355815, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235355913 XXXX 1768235355913, Thread 8375: XXXX 1768235355913, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235355915 XXXX 1768235355915, Thread 8375: XXXX 1768235355915, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356017 XXXX 1768235356017, Thread 8375: XXXX 1768235356017, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356019 XXXX 1768235356019, Thread 8375: XXXX 1768235356019, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356118 XXXX 1768235356118, Thread 8375: XXXX 1768235356118, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356120 XXXX 1768235356120, Thread 8375: XXXX 1768235356120, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356218 XXXX 1768235356218, Thread 8375: XXXX 1768235356218, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356220 XXXX 1768235356220, Thread 8375: XXXX 1768235356220, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356320 XXXX 1768235356320, Thread 8375: XXXX 1768235356320, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356322 XXXX 1768235356322, Thread 8375: XXXX 1768235356322, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356421 XXXX 1768235356421, Thread 8375: XXXX 1768235356421, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356423 XXXX 1768235356423, Thread 8375: XXXX 1768235356423, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356524 XXXX 1768235356524, Thread 8375: XXXX 1768235356524, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356526 XXXX 1768235356526, Thread 8375: XXXX 1768235356526, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356625 XXXX 1768235356625, Thread 8375: XXXX 1768235356625, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356627 XXXX 1768235356627, Thread 8375: XXXX 1768235356627, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356725 XXXX 1768235356725, Thread 8375: XXXX 1768235356725, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356727 XXXX 1768235356727, Thread 8375: XXXX 1768235356727, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356826 XXXX 1768235356826, Thread 8375: XXXX 1768235356826, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356828 XXXX 1768235356828, Thread 8375: XXXX 1768235356828, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235356930 XXXX 1768235356930, Thread 8375: XXXX 1768235356930, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235356932 XXXX 1768235356932, Thread 8375: XXXX 1768235356932, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357031 XXXX 1768235357031, Thread 8375: XXXX 1768235357031, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357033 XXXX 1768235357033, Thread 8375: XXXX 1768235357033, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357132 XXXX 1768235357132, Thread 8375: XXXX 1768235357132, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357134 XXXX 1768235357134, Thread 8375: XXXX 1768235357134, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357233 XXXX 1768235357233, Thread 8375: XXXX 1768235357233, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357235 XXXX 1768235357235, Thread 8375: XXXX 1768235357235, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357334 XXXX 1768235357334, Thread 8375: XXXX 1768235357334, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357336 XXXX 1768235357336, Thread 8375: XXXX 1768235357336, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357439 XXXX 1768235357439, Thread 8375: XXXX 1768235357439, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357441 XXXX 1768235357441, Thread 8375: XXXX 1768235357441, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357540 XXXX 1768235357540, Thread 8375: XXXX 1768235357540, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357542 XXXX 1768235357542, Thread 8375: XXXX 1768235357542, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357641 XXXX 1768235357641, Thread 8375: XXXX 1768235357641, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357643 XXXX 1768235357643, Thread 8375: XXXX 1768235357643, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357742 XXXX 1768235357742, Thread 8375: XXXX 1768235357742, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357744 XXXX 1768235357744, Thread 8375: XXXX 1768235357744, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357843 XXXX 1768235357843, Thread 8375: XXXX 1768235357843, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357845 XXXX 1768235357845, Thread 8375: XXXX 1768235357845, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235357946 XXXX 1768235357946, Thread 8375: XXXX 1768235357946, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235357947 XXXX 1768235357947, Thread 8375: XXXX 1768235357947, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358051 XXXX 1768235358051, Thread 8375: XXXX 1768235358051, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358053 XXXX 1768235358053, Thread 8375: XXXX 1768235358053, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358152 XXXX 1768235358152, Thread 8375: XXXX 1768235358152, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358154 XXXX 1768235358154, Thread 8375: XXXX 1768235358154, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358252 XXXX 1768235358252, Thread 8375: XXXX 1768235358252, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358254 XXXX 1768235358254, Thread 8375: XXXX 1768235358254, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358353 XXXX 1768235358353, Thread 8375: XXXX 1768235358353, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358355 XXXX 1768235358355, Thread 8375: XXXX 1768235358355, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358453 XXXX 1768235358453, Thread 8375: XXXX 1768235358453, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358455 XXXX 1768235358455, Thread 8375: XXXX 1768235358455, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358554 XXXX 1768235358554, Thread 8375: XXXX 1768235358554, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358556 XXXX 1768235358556, Thread 8375: XXXX 1768235358556, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358656 XXXX 1768235358656, Thread 8375: XXXX 1768235358656, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358658 XXXX 1768235358658, Thread 8375: XXXX 1768235358658, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358756 XXXX 1768235358756, Thread 8375: XXXX 1768235358756, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358758 XXXX 1768235358758, Thread 8375: XXXX 1768235358758, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358857 XXXX 1768235358857, Thread 8375: XXXX 1768235358857, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358859 XXXX 1768235358859, Thread 8375: XXXX 1768235358859, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235358959 XXXX 1768235358959, Thread 8375: XXXX 1768235358959, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235358961 XXXX 1768235358961, Thread 8375: XXXX 1768235358961, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359063 XXXX 1768235359063, Thread 8375: XXXX 1768235359063, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359065 XXXX 1768235359065, Thread 8375: XXXX 1768235359065, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359164 XXXX 1768235359164, Thread 8375: XXXX 1768235359164, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359166 XXXX 1768235359166, Thread 8375: XXXX 1768235359166, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359264 XXXX 1768235359264, Thread 8375: XXXX 1768235359264, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359266 XXXX 1768235359266, Thread 8375: XXXX 1768235359266, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359365 XXXX 1768235359365, Thread 8375: XXXX 1768235359365, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359367 XXXX 1768235359367, Thread 8375: XXXX 1768235359367, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359466 XXXX 1768235359466, Thread 8375: XXXX 1768235359466, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359468 XXXX 1768235359468, Thread 8375: XXXX 1768235359468, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359571 XXXX 1768235359571, Thread 8375: XXXX 1768235359571, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359573 XXXX 1768235359573, Thread 8375: XXXX 1768235359573, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359678 XXXX 1768235359678, Thread 8375: XXXX 1768235359678, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359680 XXXX 1768235359680, Thread 8375: XXXX 1768235359680, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359778 XXXX 1768235359778, Thread 8375: XXXX 1768235359778, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359780 XXXX 1768235359780, Thread 8375: XXXX 1768235359780, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359879 XXXX 1768235359879, Thread 8375: XXXX 1768235359879, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359881 XXXX 1768235359881, Thread 8375: XXXX 1768235359881, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235359980 XXXX 1768235359980, Thread 8375: XXXX 1768235359980, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235359982 XXXX 1768235359982, Thread 8375: XXXX 1768235359982, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360082 XXXX 1768235360082, Thread 8375: XXXX 1768235360082, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360084 XXXX 1768235360084, Thread 8375: XXXX 1768235360084, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360182 XXXX 1768235360182, Thread 8375: XXXX 1768235360182, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360185 XXXX 1768235360185, Thread 8375: XXXX 1768235360185, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360284 XXXX 1768235360284, Thread 8375: XXXX 1768235360284, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360286 XXXX 1768235360286, Thread 8375: XXXX 1768235360286, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360385 XXXX 1768235360385, Thread 8375: XXXX 1768235360385, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360387 XXXX 1768235360387, Thread 8375: XXXX 1768235360387, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360487 XXXX 1768235360487, Thread 8375: XXXX 1768235360487, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360489 XXXX 1768235360489, Thread 8375: XXXX 1768235360489, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360589 XXXX 1768235360589, Thread 8375: XXXX 1768235360589, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360591 XXXX 1768235360591, Thread 8375: XXXX 1768235360591, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360690 XXXX 1768235360690, Thread 8375: XXXX 1768235360690, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360693 XXXX 1768235360693, Thread 8375: XXXX 1768235360693, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360790 XXXX 1768235360790, Thread 8375: XXXX 1768235360790, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360792 XXXX 1768235360792, Thread 8375: XXXX 1768235360792, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360891 XXXX 1768235360891, Thread 8375: XXXX 1768235360891, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235360893 XXXX 1768235360893, Thread 8375: XXXX 1768235360893, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235360998 XXXX 1768235360998, Thread 8375: XXXX 1768235360998, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361000 XXXX 1768235361000, Thread 8375: XXXX 1768235361000, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361100 XXXX 1768235361100, Thread 8375: XXXX 1768235361100, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361102 XXXX 1768235361102, Thread 8375: XXXX 1768235361102, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361200 XXXX 1768235361200, Thread 8375: XXXX 1768235361200, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361202 XXXX 1768235361202, Thread 8375: XXXX 1768235361202, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361302 XXXX 1768235361302, Thread 8375: XXXX 1768235361302, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361304 XXXX 1768235361304, Thread 8375: XXXX 1768235361304, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361403 XXXX 1768235361403, Thread 8375: XXXX 1768235361403, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361405 XXXX 1768235361405, Thread 8375: XXXX 1768235361405, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361507 XXXX 1768235361507, Thread 8375: XXXX 1768235361507, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361509 XXXX 1768235361509, Thread 8375: XXXX 1768235361509, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361611 XXXX 1768235361611, Thread 8375: XXXX 1768235361611, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361613 XXXX 1768235361613, Thread 8375: XXXX 1768235361613, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361711 XXXX 1768235361711, Thread 8375: XXXX 1768235361711, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361713 XXXX 1768235361713, Thread 8375: XXXX 1768235361713, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361812 XXXX 1768235361812, Thread 8375: XXXX 1768235361812, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361814 XXXX 1768235361814, Thread 8375: XXXX 1768235361814, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235361913 XXXX 1768235361913, Thread 8375: XXXX 1768235361913, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235361915 XXXX 1768235361915, Thread 8375: XXXX 1768235361915, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362014 XXXX 1768235362014, Thread 8375: XXXX 1768235362014, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362016 XXXX 1768235362016, Thread 8375: XXXX 1768235362016, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362117 XXXX 1768235362117, Thread 8375: XXXX 1768235362117, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362119 XXXX 1768235362119, Thread 8375: XXXX 1768235362119, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362218 XXXX 1768235362218, Thread 8375: XXXX 1768235362218, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362220 XXXX 1768235362220, Thread 8375: XXXX 1768235362220, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362319 XXXX 1768235362319, Thread 8375: XXXX 1768235362319, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362321 XXXX 1768235362321, Thread 8375: XXXX 1768235362321, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362425 XXXX 1768235362425, Thread 8375: XXXX 1768235362425, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362427 XXXX 1768235362427, Thread 8375: XXXX 1768235362427, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362528 XXXX 1768235362528, Thread 8375: XXXX 1768235362528, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362530 XXXX 1768235362530, Thread 8375: XXXX 1768235362530, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362632 XXXX 1768235362632, Thread 8375: XXXX 1768235362632, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362634 XXXX 1768235362634, Thread 8375: XXXX 1768235362634, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362732 XXXX 1768235362732, Thread 8375: XXXX 1768235362732, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362734 XXXX 1768235362734, Thread 8375: XXXX 1768235362734, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362834 XXXX 1768235362834, Thread 8375: XXXX 1768235362834, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362836 XXXX 1768235362836, Thread 8375: XXXX 1768235362836, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235362939 XXXX 1768235362939, Thread 8375: XXXX 1768235362939, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235362941 XXXX 1768235362941, Thread 8375: XXXX 1768235362941, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363040 XXXX 1768235363040, Thread 8375: XXXX 1768235363040, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363042 XXXX 1768235363042, Thread 8375: XXXX 1768235363042, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363143 XXXX 1768235363143, Thread 8375: XXXX 1768235363143, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363145 XXXX 1768235363145, Thread 8375: XXXX 1768235363145, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363243 XXXX 1768235363243, Thread 8375: XXXX 1768235363243, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363245 XXXX 1768235363245, Thread 8375: XXXX 1768235363245, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363343 XXXX 1768235363343, Thread 8375: XXXX 1768235363343, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363345 XXXX 1768235363345, Thread 8375: XXXX 1768235363345, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363446 XXXX 1768235363446, Thread 8375: XXXX 1768235363446, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363448 XXXX 1768235363448, Thread 8375: XXXX 1768235363448, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363546 XXXX 1768235363546, Thread 8375: XXXX 1768235363546, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363548 XXXX 1768235363548, Thread 8375: XXXX 1768235363548, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363651 XXXX 1768235363651, Thread 8375: XXXX 1768235363651, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363653 XXXX 1768235363653, Thread 8375: XXXX 1768235363653, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363751 XXXX 1768235363751, Thread 8375: XXXX 1768235363751, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363753 XXXX 1768235363753, Thread 8375: XXXX 1768235363753, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363852 XXXX 1768235363852, Thread 8375: XXXX 1768235363852, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363854 XXXX 1768235363854, Thread 8375: XXXX 1768235363854, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235363955 XXXX 1768235363955, Thread 8375: XXXX 1768235363955, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235363957 XXXX 1768235363957, Thread 8375: XXXX 1768235363957, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364056 XXXX 1768235364056, Thread 8375: XXXX 1768235364056, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364058 XXXX 1768235364058, Thread 8375: XXXX 1768235364058, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364157 XXXX 1768235364157, Thread 8375: XXXX 1768235364157, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364159 XXXX 1768235364159, Thread 8375: XXXX 1768235364159, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364257 XXXX 1768235364257, Thread 8375: XXXX 1768235364257, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364259 XXXX 1768235364259, Thread 8375: XXXX 1768235364259, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364358 XXXX 1768235364358, Thread 8375: XXXX 1768235364358, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364360 XXXX 1768235364360, Thread 8375: XXXX 1768235364360, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364460 XXXX 1768235364460, Thread 8375: XXXX 1768235364460, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364462 XXXX 1768235364462, Thread 8375: XXXX 1768235364462, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364562 XXXX 1768235364562, Thread 8375: XXXX 1768235364562, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364563 XXXX 1768235364563, Thread 8375: XXXX 1768235364563, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364662 XXXX 1768235364662, Thread 8375: XXXX 1768235364662, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364664 XXXX 1768235364664, Thread 8375: XXXX 1768235364664, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364762 XXXX 1768235364762, Thread 8375: XXXX 1768235364762, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364764 XXXX 1768235364764, Thread 8375: XXXX 1768235364764, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364864 XXXX 1768235364864, Thread 8375: XXXX 1768235364864, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364866 XXXX 1768235364866, Thread 8375: XXXX 1768235364866, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235364969 XXXX 1768235364969, Thread 8375: XXXX 1768235364969, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235364971 XXXX 1768235364971, Thread 8375: XXXX 1768235364971, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365073 XXXX 1768235365073, Thread 8375: XXXX 1768235365073, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365075 XXXX 1768235365075, Thread 8375: XXXX 1768235365075, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365173 XXXX 1768235365173, Thread 8375: XXXX 1768235365173, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365175 XXXX 1768235365175, Thread 8375: XXXX 1768235365175, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365274 XXXX 1768235365274, Thread 8375: XXXX 1768235365274, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365276 XXXX 1768235365276, Thread 8375: XXXX 1768235365276, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365375 XXXX 1768235365375, Thread 8375: XXXX 1768235365375, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365377 XXXX 1768235365377, Thread 8375: XXXX 1768235365377, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365478 XXXX 1768235365478, Thread 8375: XXXX 1768235365478, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365481 XXXX 1768235365481, Thread 8375: XXXX 1768235365481, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365579 XXXX 1768235365579, Thread 8375: XXXX 1768235365579, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365581 XXXX 1768235365581, Thread 8375: XXXX 1768235365581, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365681 XXXX 1768235365681, Thread 8375: XXXX 1768235365681, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365683 XXXX 1768235365683, Thread 8375: XXXX 1768235365683, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365781 XXXX 1768235365781, Thread 8375: XXXX 1768235365781, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365783 XXXX 1768235365783, Thread 8375: XXXX 1768235365783, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365883 XXXX 1768235365883, Thread 8375: XXXX 1768235365883, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365885 XXXX 1768235365885, Thread 8375: XXXX 1768235365885, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235365985 XXXX 1768235365985, Thread 8375: XXXX 1768235365985, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235365987 XXXX 1768235365987, Thread 8375: XXXX 1768235365987, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366088 XXXX 1768235366088, Thread 8375: XXXX 1768235366088, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366090 XXXX 1768235366090, Thread 8375: XXXX 1768235366090, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366188 XXXX 1768235366188, Thread 8375: XXXX 1768235366188, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366190 XXXX 1768235366190, Thread 8375: XXXX 1768235366190, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366290 XXXX 1768235366290, Thread 8375: XXXX 1768235366290, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366292 XXXX 1768235366292, Thread 8375: XXXX 1768235366292, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366392 XXXX 1768235366392, Thread 8375: XXXX 1768235366392, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366394 XXXX 1768235366394, Thread 8375: XXXX 1768235366394, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366493 XXXX 1768235366493, Thread 8375: XXXX 1768235366493, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366495 XXXX 1768235366495, Thread 8375: XXXX 1768235366495, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366596 XXXX 1768235366596, Thread 8375: XXXX 1768235366596, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366598 XXXX 1768235366598, Thread 8375: XXXX 1768235366598, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366696 XXXX 1768235366696, Thread 8375: XXXX 1768235366696, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366698 XXXX 1768235366698, Thread 8375: XXXX 1768235366698, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366798 XXXX 1768235366798, Thread 8375: XXXX 1768235366798, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366800 XXXX 1768235366800, Thread 8375: XXXX 1768235366800, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366898 XXXX 1768235366898, Thread 8375: XXXX 1768235366898, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235366900 XXXX 1768235366900, Thread 8375: XXXX 1768235366900, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235366998 XXXX 1768235366998, Thread 8375: XXXX 1768235366998, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367000 XXXX 1768235367000, Thread 8375: XXXX 1768235367000, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367100 XXXX 1768235367100, Thread 8375: XXXX 1768235367100, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367102 XXXX 1768235367102, Thread 8375: XXXX 1768235367102, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367202 XXXX 1768235367202, Thread 8375: XXXX 1768235367202, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367204 XXXX 1768235367204, Thread 8375: XXXX 1768235367204, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367304 XXXX 1768235367304, Thread 8375: XXXX 1768235367304, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367306 XXXX 1768235367306, Thread 8375: XXXX 1768235367306, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367410 XXXX 1768235367410, Thread 8375: XXXX 1768235367410, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367412 XXXX 1768235367412, Thread 8375: XXXX 1768235367412, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367512 XXXX 1768235367512, Thread 8375: XXXX 1768235367512, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367514 XXXX 1768235367514, Thread 8375: XXXX 1768235367514, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367614 XXXX 1768235367614, Thread 8375: XXXX 1768235367614, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367616 XXXX 1768235367616, Thread 8375: XXXX 1768235367616, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367716 XXXX 1768235367716, Thread 8375: XXXX 1768235367716, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367718 XXXX 1768235367718, Thread 8375: XXXX 1768235367718, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367816 XXXX 1768235367816, Thread 8375: XXXX 1768235367816, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367818 XXXX 1768235367818, Thread 8375: XXXX 1768235367818, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235367919 XXXX 1768235367919, Thread 8375: XXXX 1768235367919, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235367921 XXXX 1768235367921, Thread 8375: XXXX 1768235367921, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368019 XXXX 1768235368019, Thread 8375: XXXX 1768235368019, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368021 XXXX 1768235368021, Thread 8375: XXXX 1768235368021, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368122 XXXX 1768235368122, Thread 8375: XXXX 1768235368122, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368124 XXXX 1768235368124, Thread 8375: XXXX 1768235368124, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368223 XXXX 1768235368223, Thread 8375: XXXX 1768235368223, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368225 XXXX 1768235368225, Thread 8375: XXXX 1768235368225, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368325 XXXX 1768235368325, Thread 8375: XXXX 1768235368325, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368327 XXXX 1768235368327, Thread 8375: XXXX 1768235368327, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368427 XXXX 1768235368427, Thread 8375: XXXX 1768235368427, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368429 XXXX 1768235368429, Thread 8375: XXXX 1768235368429, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368529 XXXX 1768235368529, Thread 8375: XXXX 1768235368529, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368531 XXXX 1768235368531, Thread 8375: XXXX 1768235368531, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368631 XXXX 1768235368631, Thread 8375: XXXX 1768235368631, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368633 XXXX 1768235368633, Thread 8375: XXXX 1768235368633, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368732 XXXX 1768235368732, Thread 8375: XXXX 1768235368732, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368734 XXXX 1768235368734, Thread 8375: XXXX 1768235368734, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368834 XXXX 1768235368834, Thread 8375: XXXX 1768235368834, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368836 XXXX 1768235368836, Thread 8375: XXXX 1768235368836, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235368937 XXXX 1768235368937, Thread 8375: XXXX 1768235368937, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235368938 XXXX 1768235368938, Thread 8375: XXXX 1768235368938, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369038 XXXX 1768235369038, Thread 8375: XXXX 1768235369038, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369040 XXXX 1768235369040, Thread 8375: XXXX 1768235369040, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369140 XXXX 1768235369140, Thread 8375: XXXX 1768235369140, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369142 XXXX 1768235369142, Thread 8375: XXXX 1768235369142, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369241 XXXX 1768235369241, Thread 8375: XXXX 1768235369241, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369243 XXXX 1768235369243, Thread 8375: XXXX 1768235369243, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369343 XXXX 1768235369343, Thread 8375: XXXX 1768235369343, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369345 XXXX 1768235369345, Thread 8375: XXXX 1768235369345, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369445 XXXX 1768235369445, Thread 8375: XXXX 1768235369445, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369447 XXXX 1768235369447, Thread 8375: XXXX 1768235369447, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369547 XXXX 1768235369547, Thread 8375: XXXX 1768235369547, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369549 XXXX 1768235369549, Thread 8375: XXXX 1768235369549, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369651 XXXX 1768235369651, Thread 8375: XXXX 1768235369651, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369653 XXXX 1768235369653, Thread 8375: XXXX 1768235369653, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369753 XXXX 1768235369753, Thread 8375: XXXX 1768235369753, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369755 XXXX 1768235369755, Thread 8375: XXXX 1768235369755, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369855 XXXX 1768235369855, Thread 8375: XXXX 1768235369855, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369857 XXXX 1768235369857, Thread 8375: XXXX 1768235369857, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235369956 XXXX 1768235369956, Thread 8375: XXXX 1768235369956, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235369958 XXXX 1768235369958, Thread 8375: XXXX 1768235369958, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370060 XXXX 1768235370060, Thread 8375: XXXX 1768235370060, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370062 XXXX 1768235370062, Thread 8375: XXXX 1768235370062, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370162 XXXX 1768235370162, Thread 8375: XXXX 1768235370162, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370164 XXXX 1768235370164, Thread 8375: XXXX 1768235370164, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370263 XXXX 1768235370263, Thread 8375: XXXX 1768235370263, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370265 XXXX 1768235370265, Thread 8375: XXXX 1768235370265, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370365 XXXX 1768235370365, Thread 8375: XXXX 1768235370365, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370367 XXXX 1768235370367, Thread 8375: XXXX 1768235370367, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370469 XXXX 1768235370469, Thread 8375: XXXX 1768235370469, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370471 XXXX 1768235370471, Thread 8375: XXXX 1768235370471, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370572 XXXX 1768235370572, Thread 8375: XXXX 1768235370572, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370574 XXXX 1768235370574, Thread 8375: XXXX 1768235370574, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370673 XXXX 1768235370673, Thread 8375: XXXX 1768235370673, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370675 XXXX 1768235370675, Thread 8375: XXXX 1768235370675, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370774 XXXX 1768235370774, Thread 8375: XXXX 1768235370774, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370776 XXXX 1768235370776, Thread 8375: XXXX 1768235370776, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370876 XXXX 1768235370876, Thread 8375: XXXX 1768235370876, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370878 XXXX 1768235370878, Thread 8375: XXXX 1768235370878, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235370981 XXXX 1768235370981, Thread 8375: XXXX 1768235370981, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235370983 XXXX 1768235370983, Thread 8375: XXXX 1768235370983, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371083 XXXX 1768235371083, Thread 8375: XXXX 1768235371083, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371085 XXXX 1768235371085, Thread 8375: XXXX 1768235371085, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371185 XXXX 1768235371185, Thread 8375: XXXX 1768235371185, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371187 XXXX 1768235371187, Thread 8375: XXXX 1768235371187, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371286 XXXX 1768235371286, Thread 8375: XXXX 1768235371286, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371288 XXXX 1768235371288, Thread 8375: XXXX 1768235371288, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371387 XXXX 1768235371387, Thread 8375: XXXX 1768235371387, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371389 XXXX 1768235371389, Thread 8375: XXXX 1768235371389, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371491 XXXX 1768235371491, Thread 8375: XXXX 1768235371491, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371493 XXXX 1768235371493, Thread 8375: XXXX 1768235371493, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371595 XXXX 1768235371595, Thread 8375: XXXX 1768235371595, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371596 XXXX 1768235371596, Thread 8375: XXXX 1768235371596, Exiting Thread 8375: Commands::runScriptBasic  
+8375 1768235371697 XXXX 1768235371697, Thread 8375: XXXX 1768235371697, Entering Thread 8375: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+8375 1768235371699 XXXX 1768235371699, Thread 8375: XXXX 1768235371699, Exiting Thread 8375: Commands::runScriptBasic  
 
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ProgramInterface
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ProgramInterfaceImpl@1b8a31f5
-322 1768235541954 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
+8375 1768235371720 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:HaltTarget
+8375 1768235371720 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+8375 1768235371720 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+8375 1768235371720 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+8375 1768235371720 XXXX 1768235371720, Thread 8375: XXXX 1768235371720, Entering Thread 8375: Commands::runScriptBasic, script name = Halt, timeOut = -1 ms  
+8375 1768235372722 XXXX 1768235372721, Thread 8375: Type = runScript, Script name = Halt, Status = 0xc00
+ 
 
-322 1768235542080 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235542080 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542080 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ConnectInterface
-322 1768235542080 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542082 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235542082 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542082 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ArmToolsController.comm.ICD4ArmConnectInterfaceImpl@7fddd0d7
-322 1768235542082 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
+8179 1768235372751 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
+8179 1768235372751 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+8179 1768235372751 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+8179 1768235372751 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+8179 1768235372751 XXXX 1768235372751, Thread 8179: XXXX 1768235372751, Entering Thread 8179: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+8179 1768235374752 XXXX 1768235374752, Thread 8179: Type = runScript, Script name = GetPC, Status = 0xc06
+ 
 
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:selectCore
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 dsPIC33EP512MU814
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Post:selectCore
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 none
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235542087 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ControllerDiagnosticsInterface
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ControllerDiagnosticsInterfaceImpl@26cf529
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 ProgrammerToGo
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 null
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Status
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.OpStatus@4c31d191
-322 1768235542088 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542111 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Pre:SetProgramExec
-322 1768235542111 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542116 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Test
-322 1768235542116 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 800000
-322 1768235542116 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Length = 6126
-322 1768235542116 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542117 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Post:SetProgramExec
-322 1768235542117 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542117 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 true
-322 1768235542117 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Pre:SetDebugExec
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Test
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 800000
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Length = 2064
-322 1768235542120 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542121 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Post:SetDebugExec
-322 1768235542121 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542121 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 true
-322 1768235542121 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542122 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:EstablishCommunincations
-322 1768235542122 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542122 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.mdbcore.ICD4Tool.ICD4Com@20f5ebb7
-322 1768235542122 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Post:EstablishCommunincations
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return Value
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 true
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return End
-
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:GetFirmwareInfo
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 null
-322 1768235542131 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
-322 1768235542135 XXXX 1768235542135, Thread 322: com.Send returned false 
-322 1768235542137 XXXX 1768235542136, Thread 322: execCommand: exception after writeSideChanel null 
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+8179 1768235374762 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+8179 1768235374762 XXXX 1768235374762, Thread 8179: XXXX 1768235374762, Entering Thread 8179: Commands::runScriptWithUpload, script name = ReadSFR  
+8179 1768235374762 XXXX 1768235374762, Thread 8179: XXXX 1768235374762, Entering Thread 8179: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+44 1768235496085 GEN4_CONNECT_DIAGNOSTICS:Calling Update on plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@707d9769
+44 1768235496085 GEN4_CONNECT_DIAGNOSTICS:Entering plug and play Update(). Attached PID = 9015
+44 1768235496085 GEN4_CONNECT_DIAGNOSTICS:Entering MPLABCommEvent handler
+44 1768235712645 GEN4_CONNECT_DIAGNOSTICS:MPLABCommEvent.pid = 9015
+44 1768235712645 GEN4_CONNECT_DIAGNOSTICS:eventType = MPLABCOMM_TOOL_UNPLUGGED
+44 1768235712656 GEN4_CONNECT_DIAGNOSTICS:Exiting plug and play Update()
+8825 1768235712670 XXXX 1768235712670, Thread 8825: ToolCommUsb::read, com.Received returned -1 
+8825 1768235712670 XXXX 1768235712670, Thread 8825: ToolCommUsb::DataReader::run, fatal RI4ControllerException: {null} 
+8179 1768235712679 XXXX 1768235712679, Thread 8179: com.Send returned false 
