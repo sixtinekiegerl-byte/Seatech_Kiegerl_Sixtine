@@ -17,6 +17,8 @@
 #include "ADC.h"
 #include "main.h"
 unsigned char stateRobot;
+unsigned char nextStateRobot = 0;
+
 int main(void) {
     //
     //Initialisation oscillateur
@@ -73,7 +75,7 @@ int main(void) {
             volts = ((float) result [4])* 3.3 / 4096;
             robotState.distanceTelemetreExtremeDroit = 34 / volts - 5;           
         }
-        if (robotState.distanceTelemetreGauche < 30) {
+        if (robotState.distanceTelemetreGauche < 15) {
             LED_BLEUE_1 = 1;
         } else {
             LED_BLEUE_1 = 0;
@@ -94,7 +96,7 @@ int main(void) {
         } else {
             LED_BLANCHE_1 = 0;
         }
-        if (robotState.distanceTelemetreExtremeDroit < 30) {
+        if (robotState.distanceTelemetreExtremeDroit < 15) {
             LED_VERTE_1 = 1;
         } else {
             LED_VERTE_1 = 0;
@@ -210,6 +212,8 @@ void OperatingSystemLoop(void) {
                     // --- C'EST ICI QUE LE BASCULEMENT SE FAIT ---
                     if (stateRobot == STATE_ARRET) {
                         stateRobot = STATE_ATTENTE; // Démarrer
+                        startTime = timestamp; // <--- On lance le chrono de 1 minute ICI
+                        nextStateRobot = STATE_AVANCE; // Par défaut on veut avancer
                     } else {
                         stateRobot = STATE_ARRET;   // Arrêter
                         PWMSetSpeedConsigne(0, MOTEUR_DROIT);
@@ -230,7 +234,7 @@ void OperatingSystemLoop(void) {
             break;
     }
 
-    // --- GESTION DU ROBOT (Votre machine à états principale) ---
+    // --- GESTION DU ROBOT  ---
     switch (stateRobot) {
         
         case STATE_ARRET:
@@ -243,17 +247,32 @@ void OperatingSystemLoop(void) {
             timestamp = 0;
             PWMSetSpeedConsigne(0, MOTEUR_DROIT);
             PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
+            
+            // Si on vient de démarrer (nextStateRobot est vide), on veut avancer par défaut.
+            if (nextStateRobot == 0) {
+                nextStateRobot = STATE_AVANCE;
+            }
+            
             stateRobot = STATE_ATTENTE_EN_COURS;
             break;
 
         case STATE_ATTENTE_EN_COURS:
-            if (timestamp > 1000)
-                stateRobot = STATE_AVANCE;
+            // Gestion intelligente du délai :
+            // - Si on va vers AVANCE (démarrage) -> on attend 1000 ms
+            // - Si on va vers un VIRAGE (freinage inertie) -> on attend 300 ms
+            if (nextStateRobot == STATE_AVANCE) {
+                if (timestamp > 1000)
+                    stateRobot = nextStateRobot;
+            } else {
+                // Cas du freinage avant virage
+                if (timestamp > 100)
+                    stateRobot = nextStateRobot;
+            }
             break;
 
         case STATE_AVANCE:
-            PWMSetSpeedConsigne(-30, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(-30, MOTEUR_GAUCHE);
+            PWMSetSpeedConsigne(-25, MOTEUR_DROIT);
+            PWMSetSpeedConsigne(-25, MOTEUR_GAUCHE);
             stateRobot = STATE_AVANCE_EN_COURS;
             break;
 
@@ -262,8 +281,8 @@ void OperatingSystemLoop(void) {
             break;
 
         case STATE_TOURNE_GAUCHE:
-            PWMSetSpeedConsigne(-30, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
+            PWMSetSpeedConsigne(-20, MOTEUR_DROIT);
+            PWMSetSpeedConsigne(10, MOTEUR_GAUCHE);
             stateRobot = STATE_TOURNE_GAUCHE_EN_COURS;
             break;
 
@@ -272,8 +291,8 @@ void OperatingSystemLoop(void) {
             break;
 
         case STATE_TOURNE_DROITE:
-            PWMSetSpeedConsigne(0, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(-30, MOTEUR_GAUCHE);
+            PWMSetSpeedConsigne(10, MOTEUR_DROIT);
+            PWMSetSpeedConsigne(-20, MOTEUR_GAUCHE);
             stateRobot = STATE_TOURNE_DROITE_EN_COURS;
             break;
 
@@ -358,7 +377,7 @@ void OperatingSystemLoop(void) {
 //            stateRobot = nextStateRobot;
 //    }
 
-unsigned char nextStateRobot = 0;
+//unsigned char nextStateRobot = 0;
 
 void SetNextRobotStateInAutomaticMode() 
 {
@@ -367,7 +386,7 @@ void SetNextRobotStateInAutomaticMode()
     int seuil = 30; 
     
     // C1 change tous les pas (0,1,0,1) -> C'est le Bit 0 (Poids 1)
-    int c1 = (robotState.distanceTelemetreExtremeGauche < seuil) ? 1 : 0;
+    int c1 = (robotState.distanceTelemetreExtremeGauche < 15) ? 1 : 0;
     
     // C2 change tous les 2 pas -> C'est le Bit 1 (Poids 2)
     int c2 = (robotState.distanceTelemetreGauche < seuil) ? 1 : 0;
@@ -379,7 +398,7 @@ void SetNextRobotStateInAutomaticMode()
     int c4 = (robotState.distanceTelemetreDroit < seuil) ? 1 : 0;
     
     // C5 change tous les 16 pas -> C'est le Bit 4 (Poids 16)
-    int c5 = (robotState.distanceTelemetreExtremeDroit < seuil) ? 1 : 0;
+    int c5 = (robotState.distanceTelemetreExtremeDroit < 15) ? 1 : 0;
 
     // 2. Calcul de la "Situation" (correspond à S1...S32 sur votre feuille)
     // Cela donne un nombre entre 0 et 31.
@@ -399,15 +418,15 @@ void SetNextRobotStateInAutomaticMode()
     {
         nextStateRobot = STATE_TOURNE_SUR_PLACE_DROITE; // Ou STATE_TOURNE_SUR_PLACE_DROITE 
     }
-    // Cas AVANCE (-)
+    // Cas AVANCE (-)|| situation == 1 
     // Correspond à S1 (00000)
-    else if (situation == 0 || situation == 1 || situation == 16 || situation == 17) 
+    else if (situation == 0 || situation == 17) 
     {
         nextStateRobot = STATE_AVANCE;
     }
     // Correspond aux colonnes S3, S4, S9, S10, S11, S12, S17, S18, S19, S20
-    else if (situation == 2 || situation == 3 || situation == 13 || (situation >=5 && situation <=7) ||
-             (situation == 8 )||(situation == 10))
+    else if (situation == 1 || situation == 2 || situation == 3 || situation == 13 || (situation >=5 && situation <=7) ||
+             (situation == 8 )||(situation == 10) )
     {
         nextStateRobot = STATE_TOURNE_DROITE;
     }
@@ -418,6 +437,18 @@ void SetNextRobotStateInAutomaticMode()
     }
 
     // 4. Transition d'état (Code original conservé)
-    if (nextStateRobot != stateRobot - 1)
-        stateRobot = nextStateRobot;
+    if (nextStateRobot != stateRobot - 1) {
+        
+        // Si on était en train d'AVANCER et qu'on veut maintenant TOURNER,
+        // on force un passage par la case DÉPART (Attente/Arrêt) pour casser l'inertie.
+        if (stateRobot == STATE_AVANCE_EN_COURS) {
+            stateRobot = STATE_ATTENTE; 
+            // Note : nextStateRobot contient déjà la direction future (ex: TOURNE_GAUCHE)
+            // L'état STATE_ATTENTE l'utilisera pour repartir après 300ms.
+        } 
+        else {
+            // Pour les autres cas (ex: enchainement de virages ou démarrage), transition directe
+            stateRobot = nextStateRobot;
+        }
+    }
 }
